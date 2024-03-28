@@ -12,7 +12,7 @@ body {
 
 
 .menu {
-  width: 42%;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -61,6 +61,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
 
 
 
@@ -113,6 +114,10 @@ body {
 
   .array {
     width: 96%;
+  }
+
+  .mainComponent{
+    overflow-x: auto;
   }
 }
 
